@@ -15,4 +15,6 @@ typedef UIViewController * (^RNNExternalViewCreator)(NSDictionary *props, RCTBri
 
 - (UIViewController *)findComponentForId:(NSString *)componentId;
 
+@property (nonatomic) BOOL disableRefreshApp;
+
 @end

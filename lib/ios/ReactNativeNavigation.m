@@ -82,4 +82,8 @@
     return keyWindow;
 }
 
++ (void)setDisableRefreshApp:(BOOL) disableRefreshApp {
+    [[ReactNativeNavigation sharedInstance].bridgeManager setDisableRefreshApp:disableRefreshApp];
+}
+
 @end
